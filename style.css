@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    user-select: none;
+}
+
+body {
+    background-color: teal;
+}
+
+/* SORT MONEY */
+/* img {
+    width: 300px;
+    height: 150px;
+
+}
+div{
+    margin-top: 15px;
+} */
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.header{
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+}
+.header h2{
+    color:chartreuse;
+}
+.header h1{
+    font-size: 70px;
+    margin-bottom: 15px;
+    color: antiquewhite;
+}
+
+#game {
+    width: 900px;
+    height: 900px;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: calc(100% / 3);
+    height: calc(100% / 3);
+    border: 1px solid gray;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    cursor: pointer;
+}
+
+.box:hover {
+    background-color: rgb(158, 155, 155);
+}
+
+
+h1 {
+    font-size: 70px;
+}
+
+.winner{
+    background-color: green;
+    color: white;
+}
+
+#reset {
+    font-size: 40px;
+    margin-top: 15px;
+    background-color: #b81515;
+    padding: 7px;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    animation: bn53bounce 4s infinite;
+    cursor: pointer;
+    border: None;
+  }
+  
+  @keyframes bn53bounce {
+    5%,
+    50% {
+      transform: scale(1);
+    }
+  
+    10% {
+      transform: scale(1);
+    }
+  
+    15% {
+      transform: scale(1);
+    }
+  
+    20% {
+      transform: scale(1) rotate(-5deg);
+    }
+  
+    25% {
+      transform: scale(1) rotate(5deg);
+    }
+  
+    30% {
+      transform: scale(1) rotate(-3deg);
+    }
+  
+    35% {
+      transform: scale(1) rotate(2deg);
+    }
+  
+    40% {
+      transform: scale(1) rotate(0);
+    }
+  }
